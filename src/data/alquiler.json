@@ -1,0 +1,34 @@
+[
+    {
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "email": "juan@example.com",
+        "fechaDevolucion": "2024-07-15",
+        "nombreLibro": "La sombra del viento",
+        "estadoDevolucion": false
+    },
+    {
+        "nombre": "María",
+        "apellido": "González",
+        "email": "maria@example.com",
+        "fechaDevolucion": "2024-07-14",
+        "nombreLibro": "Cien años de soledad",
+        "estadoDevolucion": true
+    },
+    {
+        "nombre": "Pedro",
+        "apellido": "Rodríguez",
+        "email": "pedro@example.com",
+        "fechaDevolucion": "2024-07-16",
+        "nombreLibro": "El principito",
+        "estadoDevolucion": false
+    },
+    {
+        "nombre": "Ana",
+        "apellido": "Martínez",
+        "email": "ana@example.com",
+        "fechaDevolucion": "2024-07-17",
+        "nombreLibro": "Harry Potter y la piedra filosofal",
+        "estadoDevolucion": true
+    }
+]

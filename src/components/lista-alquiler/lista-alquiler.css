@@ -1,0 +1,80 @@
+.content-main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.content-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 0.2rem solid #55aa00;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    text-align: justify;
+}
+
+.more-info {
+    font-size: 1.2rem;
+}
+
+.custom-table {
+    --bs-table-bg: #7eb745 !important;
+    border-color: #F5F5DC !important;
+}
+
+.custom-table th,
+.custom-table td {
+  line-height: 2rem !important; /* Establece una altura de línea de 2 veces el tamaño de fuente */
+}
+
+.custom-table thead th:first-child {
+    border-top-left-radius: 1.5rem;
+}
+
+.custom-table thead th:last-child {
+    border-top-right-radius: 1.5rem;
+}
+
+.custom-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 1.5rem;
+}
+
+.custom-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 1.5rem;
+}
+
+.text-format {
+    color: white !important;
+}
+
+
+.btn-format-extender{
+    background-color: #aa00aa !important;
+    color: #ffffff !important;
+}
+
+.btn-format-extender:hover {
+    background-color: #880088 !important; 
+    color: #ffffff !important;
+    border-color: #880088 !important;
+}
+
+.btn-format-extender:focus {
+    outline: none !important;
+    box-shadow: 0 0 5px 2px rgba(170, 0, 170, 0.6) !important;
+}
+
+.form-check-input:checked{
+    background-color: #33461f !important;
+    border-color: #55aa00 !important;
+}
+
+.table td .form-check {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}

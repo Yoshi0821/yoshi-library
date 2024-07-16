@@ -1,0 +1,226 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cien Años de Soledad",
+        "autor": "Gabriel García Márquez",
+        "añoDePublicacion": 1967,
+        "isbn10": "0060883286",
+        "isbn13": "978-0060883287",
+        "imagenDePortada": "https://hispamer.com.ni/wp-content/uploads/2023/01/9786070728792.jpg",
+        "sinopsis": "La historia de la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de Macondo.",
+        "criticas": [
+            "Una obra maestra de la literatura latinoamericana.",
+            "Un viaje mágico y realista a la vez."
+        ],
+        "genero": [
+            "Realismo Mágico",
+            "Ficción"
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "1984",
+        "autor": "George Orwell",
+        "añoDePublicacion": 1949,
+        "isbn10": "0451524934",
+        "isbn13": "978-0451524935",
+        "imagenDePortada": "https://imagessl4.casadellibro.com/a/l/s7/44/9788499890944.webp",
+        "sinopsis": "Una distopía sobre un futuro totalitario donde el gobierno controla todos los aspectos de la vida.",
+        "criticas": [
+            "Profundamente impactante y perturbador.",
+            "Un libro que sigue siendo relevante en la actualidad."
+        ],
+        "genero": [
+            "Distopía",
+            "Ciencia Ficción",
+            "Ficción Política"
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "Orgullo y Prejuicio",
+        "autor": "Jane Austen",
+        "añoDePublicacion": 1813,
+        "isbn10": "0141439513",
+        "isbn13": "978-0141439518",
+        "imagenDePortada": "https://www.libreriainternacional.com/media/catalog/product/9/7/9788415618782_1_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=1320&width=1000",
+        "sinopsis": "Una historia de amor y malentendidos en la Inglaterra del siglo XIX.",
+        "criticas": [
+            "Una de las novelas más queridas de todos los tiempos.",
+            "Una crítica social disfrazada de romance."
+        ],
+        "genero": [
+            "Romance",
+            "Ficción Histórica"
+        ]
+    },
+    {
+        "id": 4,
+        "nombre": "El Gran Gatsby",
+        "autor": "F. Scott Fitzgerald",
+        "añoDePublicacion": 1925,
+        "isbn10": "0743273567",
+        "isbn13": "978-0743273565",
+        "imagenDePortada": "https://www.libreriainternacional.com/media/catalog/product/9/7/9788418395185_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=1320&width=1000",
+        "sinopsis": "La historia de Jay Gatsby y su obsesión por la riqueza y el amor en la década de 1920.",
+        "criticas": [
+            "Una exploración fascinante del sueño americano.",
+            "Fitzgerald captura la esencia de una era."
+        ],
+        "genero": [
+            "Ficción",
+            "Clásicos"
+        ]
+    },
+    {
+        "id": 5,
+        "nombre": "Matar a un Ruiseñor",
+        "autor": "Harper Lee",
+        "añoDePublicacion": 1960,
+        "isbn10": "0061120081",
+        "isbn13": "978-0061120084",
+        "imagenDePortada": "https://www.libreriainternacional.com/media/catalog/product/9/7/9780718076375_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=1320&width=1000",
+        "sinopsis": "Una poderosa historia sobre la injusticia racial en el sur de Estados Unidos.",
+        "criticas": [
+            "Un clásico que aborda temas aún relevantes hoy.",
+            "Una historia conmovedora y profundamente humana."
+        ],
+        "genero": [
+            "Ficción",
+            "Ficción Histórica"
+        ]
+    },
+    {
+        "id": 6,
+        "nombre": "Don Quijote de la Mancha",
+        "autor": "Miguel de Cervantes",
+        "añoDePublicacion": 1605,
+        "isbn10": "8424112546",
+        "isbn13": "978-8424112548",
+        "imagenDePortada": "https://www.libreriainternacional.com/media/catalog/product/9/7/9788423355235_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=1320&width=1000",
+        "sinopsis": "Las aventuras del ingenioso hidalgo don Quijote de la Mancha y su fiel escudero Sancho Panza.",
+        "criticas": [
+            "Una obra cumbre de la literatura española.",
+            "Una exploración profunda de la naturaleza humana."
+        ],
+        "genero": [
+            "Clásicos",
+            "Ficción",
+            "Aventura"
+        ]
+    },
+    {
+        "id": 7,
+        "nombre": "Harry Potter y la Piedra Filosofal",
+        "autor": "J.K. Rowling",
+        "añoDePublicacion": 1997,
+        "isbn10": "8478884459",
+        "isbn13": "978-8478884454",
+        "imagenDePortada": "https://www.libreriainternacional.com/media/catalog/product/9/7/9788498388879_1_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=1320&width=1000",
+        "sinopsis": "La primera entrega de la saga de Harry Potter, un niño que descubre que es un mago.",
+        "criticas": [
+            "Un fenómeno cultural que cautivó a millones de lectores.",
+            "Magia, aventuras y personajes inolvidables."
+        ],
+        "genero": [
+            "Fantasía",
+            "Aventura",
+            "Ficción Juvenil"
+        ]
+    },
+    {
+        "id": 8,
+        "nombre": "El Principito",
+        "autor": "Antoine de Saint-Exupéry",
+        "añoDePublicacion": 1943,
+        "isbn10": "0156013924",
+        "isbn13": "978-0156013925",
+        "imagenDePortada": "https://www.libreriainternacional.com/media/catalog/product/9/7/9788418174193_1_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=1320&width=1000",
+        "sinopsis": "La historia de un joven príncipe que viaja por diferentes planetas y conoce a personajes singulares.",
+        "criticas": [
+            "Una fábula filosófica sobre la amistad, el amor y la vida.",
+            "Frases y reflexiones que perduran en el tiempo."
+        ],
+        "genero": [
+            "Fábula",
+            "Ficción",
+            "Filosofía"
+        ]
+    },
+    {
+        "id": 9,
+        "nombre": "Los Juegos del Hambre",
+        "autor": "Suzanne Collins",
+        "añoDePublicacion": 2008,
+        "isbn10": "0439023483",
+        "isbn13": "978-0439023481",
+        "imagenDePortada": "https://www.libreriainternacional.com/media/catalog/product/9/7/9788413148793_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=1320&width=1000",
+        "sinopsis": "Una joven se ofrece como tributo en un juego televisado donde solo puede haber un ganador.",
+        "criticas": [
+            "Una historia distópica que engancha desde la primera página.",
+            "Acción, suspenso y crítica social."
+        ],
+        "genero": [
+            "Distopía",
+            "Ciencia Ficción",
+            "Aventura"
+        ]
+    },
+    {
+        "id": 10,
+        "nombre": "El Alquimista",
+        "autor": "Paulo Coelho",
+        "añoDePublicacion": 1988,
+        "isbn10": "0062502174",
+        "isbn13": "978-0062502179",
+        "imagenDePortada": "https://proassetspdlcom.cdnstatics2.com/usuaris/libros/thumbs/54e8361f-d68d-4462-84c6-d06ef130f5ae/d_360_620/portada_el-alquimista_paulo-coelho_201612191218.webp",
+        "sinopsis": "La historia de Santiago, un pastor que emprende un viaje en busca de su propio tesoro personal.",
+        "criticas": [
+            "Un libro que inspira a seguir nuestros sueños.",
+            "Coelho mezcla filosofía, magia y aventura."
+        ],
+        "genero": [
+            "Ficción",
+            "Filosofía",
+            "Aventura"
+        ]
+    },
+    {
+        "id": 11,
+        "nombre": "Anna Karenina",
+        "autor": "León Tolstói",
+        "añoDePublicacion": 1877,
+        "isbn10": "0143035002",
+        "isbn13": "978-0143035008",
+        "imagenDePortada": "https://www.libreriainternacional.com/media/catalog/product/9/7/9788413624037_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=1320&width=1000",
+        "sinopsis": "La historia de un triángulo amoroso en la alta sociedad rusa del siglo XIX.",
+        "criticas": [
+            "Una obra monumental que explora temas universales.",
+            "Tolstói crea personajes inolvidables."
+        ],
+        "genero": [
+            "Ficción",
+            "Romance",
+            "Ficción Histórica"
+        ]
+    },
+    {
+        "id": 12,
+        "nombre": "La Sombra del Viento",
+        "autor": "Carlos Ruiz Zafón",
+        "añoDePublicacion": 2001,
+        "isbn10": "8408043648",
+        "isbn13": "978-8408043644",
+        "imagenDePortada": "https://www.libreriainternacional.com/media/catalog/product/9/7/9788408163435_1_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=1320&width=1000",
+        "sinopsis": "Una novela que mezcla intriga, romance y misterio en el contexto de la posguerra en Barcelona.",
+        "criticas": [
+            "Una historia absorbente que atrapa al lector desde la primera página.",
+            "Zafón crea una atmósfera única y evocadora."
+        ],
+        "genero": [
+            "Ficción",
+            "Misterio",
+            "Romance"
+        ]
+    }
+]

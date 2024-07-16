@@ -1,0 +1,18 @@
+.content-welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-welcome {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.size-welcome {
+    /* border-radius: 19rem; */
+    border-radius: 50% 50% 40% 40% / 60% 60% 40% 40%;
+    height: 35rem;
+}

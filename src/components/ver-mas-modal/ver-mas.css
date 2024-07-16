@@ -1,0 +1,16 @@
+.content-body {
+    margin-bottom: 1.2rem;
+}
+
+.btn-close-format {
+    background-color: #ffffff !important;
+    color: #55aa00 !important;
+    border: 2px solid #55aa00 !important;
+}
+
+.btn-close-format:hover,
+.btn-close-format:focus {
+    background-color: #55aa00 !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}

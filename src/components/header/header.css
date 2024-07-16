@@ -1,0 +1,17 @@
+.content-menu{
+    background-color: #55aa00;
+}
+
+.title-app{
+    font-size: 2rem;
+}
+
+.icon-menu{
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+
+.option-menu{
+    font-size: 1.2rem !important;
+    margin-top: 0.2rem;
+}

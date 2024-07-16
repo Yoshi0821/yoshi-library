@@ -1,0 +1,19 @@
+.btn-close-format {
+    background-color: #ffffff !important;
+    color: #55aa00 !important;
+    border: 2px solid #55aa00 !important;
+}
+
+.btn-close-format:hover,
+.btn-close-format:focus {
+    background-color: #55aa00 !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+.format-focus:focus {
+    border-color: #55aa00 !important;
+    box-shadow: 0 0 5px rgba(85, 170, 0, 0.5) !important;
+    outline: none !important;
+    border-width: 0.1rem;
+}

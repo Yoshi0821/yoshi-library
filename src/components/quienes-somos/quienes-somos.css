@@ -1,0 +1,8 @@
+.content-quienes-somos {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+}
