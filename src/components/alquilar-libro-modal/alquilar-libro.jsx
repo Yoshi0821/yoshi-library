@@ -63,7 +63,7 @@ const AlquilarLibro = forwardRef((props, ref) => {
             email: handleRent.rent.email,
             deliver_date: handleRent.rent.date,
             titulo: libro.titulo,
-            deliver: 1
+            deliver: 0
         };
         fetch('https://gateway-production-c8a1.up.railway.app/ms-alquiler/alquileres', {
             method: 'POST',
