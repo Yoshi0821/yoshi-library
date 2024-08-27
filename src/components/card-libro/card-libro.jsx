@@ -4,7 +4,7 @@ import { Modal } from 'bootstrap';
 import ModalVerMas from '../ver-mas-modal/ver-mas';
 import ModalAlquilar from '../alquilar-libro-modal/alquilar-libro'
 
-function CardLibro(props) {
+function CardLibro({ libros = [] }) {
 
     const [selectedLibro, setSelectedLibro] = useState({});
 
@@ -25,20 +25,17 @@ function CardLibro(props) {
 
     return (
         <div className="content-cards">
-            {props.libros.map((libro) =>
+            {libros.map((libro) =>
                 <div className="card-main-content" key={libro.id}>
                     <div className="card">
-                        <img src={libro.imagenDePortada} className="card-img-top size-image" alt="book-image" />
+                        <img src={libro.imagenPortada} className="card-img-top size-image" alt="book-image" />
                         <div className="card-body">
                             <h5 className="card-title">{libro.nombre}</h5>
                         </div>
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item"><span className="fw-bold">Autor: </span>{libro.autor}</li>
                             <li className="list-group-item">
-                                <span className="fw-bold">Géneros: </span>
-                                {libro.genero.map((item, index) =>
-                                    index + 1 === libro.genero.length ? item : item + ", "
-                                )}
+                                <span className="fw-bold">Géneros: {libro.generos}</span>
                             </li>
                         </ul>
                         <div className="card-body content-btn">

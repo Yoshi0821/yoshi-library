@@ -20,12 +20,18 @@ function Catalogo() {
 
     const getBooks = async () => {
         try {
-            const response = librosData;
-            if (!response) {
-                throw new Error('No se pudo cargar el archivo JSON');
-            }
-            setBooks(response);
-            setAllBooks(response)
+            fetch("https://gateway-production-c8a1.up.railway.app/ms-books/books-vista")
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error('No se pudo cargar el archivo JSON');
+                }
+                return response.json();
+            })
+            .then((data) => {
+                console.log("Ver", data);
+                setBooks(data);
+                setAllBooks(data);
+            })
         } catch (error) {
             console.error('Error al cargar los datos:', error);
         }
