@@ -26,12 +26,27 @@ function ListaAlquiler() {
     };
 
     const getRentals = async () => {
+        // try {
+        //     const response = rentsData;
+        //     if (!response) {
+        //         throw new Error('No se pudo cargar el archivo JSON');
+        //     }
+        //     setRents(response);
+        // } catch (error) {
+        //     console.error('Error al cargar los datos:', error);
+        // }
         try {
-            const response = rentsData;
-            if (!response) {
-                throw new Error('No se pudo cargar el archivo JSON');
-            }
-            setRents(response);
+            fetch("https://gateway-production-c8a1.up.railway.app/ms-alquiler/alquileres")
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error('No se pudo cargar el archivo JSON');
+                }
+                return response.json();
+            })
+            .then((data) => {
+                console.log("Ver", data);
+                setRents(data);
+            })
         } catch (error) {
             console.error('Error al cargar los datos:', error);
         }
@@ -87,13 +102,13 @@ function ListaAlquiler() {
                     <tbody>
                         {rents.map((rent, index) => (
                             <tr key={index}>
-                                <td className="text-format">{rent.nombre}</td>
-                                <td className="text-format">{rent.apellido}</td>
+                                <td className="text-format">{rent.name}</td>
+                                <td className="text-format">{rent.lastname}</td>
                                 <td className="text-format">{rent.email}</td>
-                                <td className="text-format">{rent.nombreLibro}</td>
+                                <td className="text-format">{rent.titulo}</td>
                                 <td className="text-format ps-3">
                                     <div className="form-check">
-                                        <input className="form-check-input" readOnly type="checkbox" checked={rent.estadoDevolucion} />
+                                        <input className="form-check-input" readOnly type="checkbox" checked={rent.deliver} />
                                     </div>
                                 </td>
                                 <td className="text-format"> {rent.fechaDevolucion}

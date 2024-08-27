@@ -58,15 +58,34 @@ const AlquilarLibro = forwardRef((props, ref) => {
 
     function saveRent() {
         var paramRent = {
-            nombre: handleRent.rent.name,
-            apellido: handleRent.rent.lastName,
+            name: handleRent.rent.name,
+            lastname: handleRent.rent.lastName,
             email: handleRent.rent.email,
-            fechaDevolucion: handleRent.rent.date,
-            nombreLibro: libro.nombre,
-            estadoDevolucion: false
+            deliver_date: handleRent.rent.date,
+            titulo: libro.titulo,
+            deliver: 1
         };
-        closeModal()
-        navigateObject("/alquiler", { state: { paramRent } });
+        fetch('https://gateway-production-c8a1.up.railway.app/ms-alquiler/alquileres', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(paramRent)
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Error en la solicitud');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('Respuesta del servidor:', data);
+            closeModal()
+            navigateObject("/alquiler", { state: { paramRent } });
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
     }
 
     return (

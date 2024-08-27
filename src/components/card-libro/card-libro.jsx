@@ -26,7 +26,7 @@ function CardLibro({ libros = [] }) {
     return (
         <div className="content-cards">
             {libros.map((libro) =>
-                <div className="card-main-content" key={libro.id}>
+                <div className="card-main-content" key={libro.cve_id}>
                     <div className="card">
                         <img src={libro.imagenPortada} className="card-img-top size-image" alt="book-image" />
                         <div className="card-body">
