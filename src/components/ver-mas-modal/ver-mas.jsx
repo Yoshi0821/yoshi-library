@@ -36,12 +36,7 @@ const VerMas = forwardRef((props, ref) => {
                             <span className="fw-bold">ISBN-13: </span>{libro.isbn13}
                         </div>
                         <div className="">
-                            <span className="fw-bold">Críticas: </span>
-                            {libro.criticas?.map((item,index) =>
-                                <div className="ps-2" key={index}>
-                                    <span>- {item}</span>
-                                </div>
-                            )}
+                            <span className="fw-bold">Críticas: {libro.criticas}</span>
                         </div>
                     </div>
                     <div className="modal-footer">
